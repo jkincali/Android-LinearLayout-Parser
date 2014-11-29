@@ -12,6 +12,9 @@ refresh itself.  But calling invalidate or postInvalidate on the root layout doe
 force the children to redraw themselves.  Therefore, it is necessary for each child to get a call to
 postInvalidate.
 
+There once i was.
+there you were too.
+
 The ModDataLLParser can be instanciated from an OnCreate method of an Activity. It should be done after the view has been initialized (after a call to setContentView). A call to the code might look something like the following:
 
 TableLayout mTableView = (TableLayout) findViewById(R.id.myroottable);
