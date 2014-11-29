@@ -17,6 +17,9 @@ The ModDataLLParser can be instanciated from an OnCreate method of an Activity. 
 TableLayout mTableView = (TableLayout) findViewById(R.id.myroottable);
 new Thread(new ModDataLLParser(mTableView)).start();
 
+TableLayout mTableView = (TableLayout) findViewById(R.id.myroottable);
+new Thread(new ModDataLLParser(mTableView)).start();
+
 Note that the R.id.myroottable id would be specific to the layout id declared in your project's xml file:
 android:id="@+id/myroottable"
 
