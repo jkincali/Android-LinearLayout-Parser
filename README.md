@@ -1,7 +1,8 @@
 Android-LinearLayout-Parser
 ===========================
 
-Parse an Android LinearLayout object for all children and sub-children
+Parse an Android LinearLayout object for all children and sub-children.
+
 Since this class implements Runnable, it runs as a background thread (not as the main UI thread)
 This means it can do other things prior to the parsing of the layout.
 For example, the code can be modified by adding a socket call to a server to retrieve data
